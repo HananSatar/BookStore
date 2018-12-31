@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" action="http://localhost:3000/api/book/add" method="post">
+        title <input type="text" name="title" ><br/>
+
+        author <input type="text" name="author" ><br/>
+
+        image_url <input type="file" name="uploads"><br/>
+
+        description <input type="text" name="description" ><br/>
+
+        publisher <input type="text" name="publisher" ><br/>
+
+        create_date <input type="text" name="create_date"><br/>
+        
+        <button type="submit" name="button">Go</button><br/>
+        
+    </form>>
+    <div id="root"></div>
+
+</body>
+</html>
